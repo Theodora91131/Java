@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>測試網頁</title>
+<!-- 連結思源中文及css -->
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
+<link href="/css/menu.css" rel="stylesheet"/>  
+<link href="/css/main.css" rel="stylesheet"/>      
+<!------------------------->
+</head>
+   
+<body>
+    <!--**************************-->
+    <div class="container">    
+        <!--~~~~~~~~~~~~~~~~~-->
+        <div class="header">           
+        </div>        
+        
+        <!--~~~~~~~~~~~~~~~~~-->        
+        <ul id="navigation">        
+            <li><a href="/">首頁</a></li>            
+            
+            <li class="sub">         
+                <a href="#">菜單</a>          
+                <ul>          
+                    <li><a href="/menu/add/form">新增</a></li>
+                    <li><a href="/menu/remove/form">刪除</a></li>
+                    <li><a href="/menu/update/no">修改</a></li>   
+                    <li><a href="/menu/query/form">查詢</a></li>                      
+                </ul>
+            </li>
+            
+            <li class="sub">         
+                <a href="#">訂單</a>          
+                <ul> 
+                    <li><a href="/detail/list">查看</a></li>                      
+                </ul>
+            </li>
+            
+            <li class="sub">         
+                <a href="#">報表</a>          
+                <ul> 
+                    <li><a href="/detail/query/form">日報表</a></li> 
+                    <li><a href="/monthreport/query/form">月報表</a></li>                      
+                </ul>
+            </li>
+            
+            <li class="sub">         
+                <a href="/user/show">員工登錄</a>          
+                <ul>          
+                    <li><a href="/user/login/form">登入</a></li>
+                    <li><a href="/user/logout">登出</a></li>         
+                </ul>
+            </li>          
+        
+        </ul>
+        
+        <!--~~~~~~~~~~~~~~~~~--> 
+        <div class="content">
+            <h2>訂單 </h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th width="20%">訂單編號</th>
+                            <th width="35%">產品名稱</th>
+                            <th width="15%">數量</th>              
+                        </tr>
+                    </thead>
+                   <tbody>
+                        <% for(var i=0; i<items.length; i++) {%>
+                            <tr>
+                                <td><a href="/detail/one/<%= items[i].odno %>"><%= items[i].odno %></a></td>
+                                <td><%= items[i].proname %></td>
+                                <td><%= items[i].amt %></td>                    
+                            </tr> 
+                        <% } %> 
+                    </tbody>
+                </table>   
+            
+  
+              
+        </div>       
+        
+        <!--~~~~~~~~~~~~~~~~~--> 
+        <div class="footer">
+            NTUB group4, 2019.    
+        </div>  
+    </div>
+    <!--**************************-->    
+</body>
+   
+</html>

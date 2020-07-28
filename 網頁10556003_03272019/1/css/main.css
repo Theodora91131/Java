@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/*---------------------------*/
+/* 編排網頁                   */
+/*---------------------------*/
+html, body{
+    font-family: 'Noto Sans TC', sans-serif; 
+    background:#444;
+    margin:0;
+    padding:0;
+}
+
+/*---------------------------*/
+/* 編排<標題>區塊              */
+/*---------------------------*/
+div.header{
+    width:100%;
+    min-width:800px;
+    height:80px;
+    background:#666;
+    box-shadow:0px 1px 10px 0px #333;	
+    position:fixed;
+    z-index:10;	
+}
+
+/* 編排<圖片> */ 
+img.logo{
+    position:absolute;
+    left:50%;
+    margin-left:-40px;
+    border-radius:40px;
+    box-shadow:0px 1px 10px 0px #333;	
+    top:20px;	
+    z-index:100;
+}
+
+
+/* 編排<導覽列> */
+div.navbar{	 
+    height:40px;
+    line-height:40px;
+    font-size:18px;
+    position:relative;
+    left:50%;
+    top:35px;
+    margin-left:-400px;
+}
+
+div.navbar ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;	
+}
+
+div.navbar ul li{
+    width:160px;
+    text-align:center;
+    float:left;
+    color:#fff;
+}
+
+div.navbar a{
+    text-decoration:none;
+    color:#fff;
+}
+ .navbar a:hover{
+	color:#999;
+}
+ .logo:hover{
+	 cursor:pointer;
+	 }
+
+div.navbar ul li:nth-child(2){
+    margin-right:160px;
+}
+
+/*---------------------------*/
+/* 編排<容器>區塊             */
+/*---------------------------*/
+div.container{
+    width:800px;
+    border:1px solid #666;  
+    margin:0 auto;
+    background:#fff;
+    box-shadow:0px 0px 10px 0px #000;
+    position:relative;
+    top:80px;
+    z-index:5;
+}
+
+/*---------------------------*/
+/* 編排<內文>區塊              */
+/*---------------------------*/
+div.content{
+    padding:20px 30px;
+    line-height:32px;
+    text-align:justify;
+}
+
+/*---------------------------*/
+/* 編排<表尾>區塊             */
+/*---------------------------*/
+div.footer{
+    height:60px;
+    line-height:60px;
+    background:#777;
+    font-size:13px;
+    text-align:center;
+    letter-spacing:3px;
+}

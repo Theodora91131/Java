@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+html ,body{
+	font-family: 'Noto Serif TC', serif;
+	background:#D49B7F;
+	}
+div.content{
+	width: 800px;
+	box-sizing:border-box;
+	margin: 0 auto;
+	background:#fff;
+	padding: 40px 30px;
+	box-shadow: 0 0 10px 0 #000;
+	}
+div.author img{
+	border-radius: 40px;
+	float: left;
+	box-shadow: 0 5px 5px 0 #000;
+	}
+div.author:after{
+	display:block;
+	content:'';
+	clear:both;
+	}
+span.title{
+	position:relative;
+	top:20px;
+	left:25px;
+	font-size:30px;
+	font-weight:600;
+	letter-specing:4px;
+	}
+span.author{
+	position:relative;
+	top:20px;
+	left:25px;
+	letter-specing:4px;
+	}
+h2{
+	font-weight:400;
+	}
+p{
+	line-height: 28px;
+	}
+img ,iframe{
+	box-shadow: 0 5px 5px 0 #000;
+	}

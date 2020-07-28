@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+/*---------------------------*/
+/* 編排網頁                   */
+/*---------------------------*/
+html, body{
+    font-family: 'Noto Sans TC', sans-serif; 
+}
+div.container{
+    width:1500px;
+    height:100%;
+    background:#DCDCDC;
+    margin-left:auto;
+    margin-right:auto;
+}
+div.linebar{
+    width:980px;
+    height:60px;
+    background:#F5F5F5;
+     margin-top:40px;
+     margin-left:250px;
+     position: relative;
+     top:200px;
+}
+div.linebar span:nth-child(1){
+    font-size:35px;
+    line-height:50px;
+    margin-left:10px;
+    position: relative;
+    top:5px;
+    float: left;
+    color:#20B2AA;
+}
+div.linebar span:nth-child(2){
+    font-size:22px;
+    line-height:50px;
+    margin-right:10px;
+    position: relative;
+    top:8px;
+    right:15px;
+    color:#20B2AA;
+}
+div.linebar span:nth-child(3){
+    font-size:17px;
+    line-height:50px;
+    margin-right:10px;
+    font-weight: 600;
+    position: relative;
+    top:5px;
+    float: right;
+    color:#20B2AA;
+}
+a{
+    text-decoration: none;
+}
+div.linebar img{
+    width:40px;
+    height:40px;
+	z-index:80;
+    position:relative;
+    float: left;
+    left:480px;
+    top:10px;
+
+}
+div.linebar span:nth-child(3):hover{
+    filter:grayscale(1);
+}
+div.thumbnails{
+    margin-top:250px;
+    margin-bottom:100px;	
+    margin-left:40px;
+}
+
+div.thumbnail{
+    width:230px;
+    height:300px;
+    background:#F5F5F5;
+    float:left;
+    margin-left:90px;
+   
+}
+div.thumbnail:nth-child(1),
+div.thumbnail:nth-child(4)
+{
+    margin-right:10px;
+    margin-left:10px;
+    position: relative;
+    left:200px;
+}
+div.thumbnails:after{
+    display: block;
+    content:'';
+    clear: both;
+}
+div.thumbnail a{
+	text-decoration:none;
+	}
+img{
+    height:200px;
+    width:230px;
+    box-sizing: border-box;
+    padding:10px;
+}
+h1{
+    font-size:15px;
+    padding:4px;
+    font-weight:600;
+    position: relative;
+    bottom:10px;
+    line-height:20px;
+    color:#000;
+}
+span.fashion{
+    background:#FF0000;
+    width:60px;
+    height:22px;
+    color:#DCDCDC;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding-right:5px;
+    padding-left:5px;
+    padding-top:2px;
+    float: left;
+    position: relative;
+    bottom:5px;
+}
+span.sports{
+    background:	#0000FF;
+    width:55px;
+    height:22px;
+    color:#DCDCDC;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding-right:5px;
+    padding-left:5px;
+    padding-top:2px;
+    float: left;
+    position: relative;
+    bottom:5px;
+}
+span.sports :after{
+    display: block;
+    content:'';
+    clear: both;
+}
+h5{
+    font-weight: 300;
+    margin:0;
+    box-sizing: border-box;
+    padding:0px 65px ;
+    color:#000;
+    position: relative;
+    bottom:5px;
+    
+}

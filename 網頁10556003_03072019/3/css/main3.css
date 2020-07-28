@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+html, body{
+    font-family: 'Noto Sans TC', sans-serif;
+	margin:0;
+    padding:0;
+    background:#7AB8CC;
+    }
+div.navbar{
+    height:80px;
+    background:#ADD8E6;
+    min-width:800px;
+    width:100%;
+    }
+div.navbar ul{
+     margin: 0;
+     padding: 0;
+    list-style-type:none;
+    position:relative;
+     top: 30px;
+    left:50%;
+     }
+ul a{
+    text-decoration: none;
+    }
+ div.content{
+    width:800px;
+    margin:0 auto;
+    padding: 20px 30px;
+    background:#fff;
+    text-align: justify;
+    }
+h1{
+    color:#4D80E6;
+    font-weight: 800;
+    }
+img{
+    padding:20px 10px;
+    box-shadow: 0 5px 5px 0 #000;
+	}

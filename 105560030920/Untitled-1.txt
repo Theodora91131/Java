@@ -1,0 +1,178 @@
+class Main {
+  public static void main(String[] args) {
+    String s1 = "123";
+    System.out.println(s1);
+    String s2 = "123";
+    System.out.println(s2);
+     System.out.println(s1==s2);
+
+  }
+}
+
+
+class Main {
+  public static void main(String[] args) {
+    String s1 = new String ("123");
+    System.out.println(s1);
+    String s2 = new String ("123");
+    System.out.println(s2);
+     System.out.println(s1.equals(s2));
+
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    String s1 = new String ("123");
+    System.out.println(s1);
+    String s2 = new String ("123");
+    System.out.println(s2);
+     System.out.println(s1.equals(s2));
+
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    String s1 = new String ("10556003");
+    char d = s1.charAt(3);
+    if(d=='5'){
+      System.out.println("五專");
+    }
+    else{
+      System.out.println("非五專");
+    }
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    String s1 = new String ("A123034567");
+    char d = s1.charAt(0);
+    if(d=='A'){
+      System.out.println("台北市");
+    }
+    else{
+      System.out.println("非台北市");
+    }
+    char c = s1.charAt(1);
+    if(c=='1'){
+      System.out.println("男");
+    }
+    else{
+      System.out.println("女");
+    }
+    
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    String s1 = new String ("a123034567");
+    s1.toUpperCase();
+    char d = s1.charAt(0);
+    if(d=='A'){
+      System.out.println("台北市");
+    }
+    else{
+      System.out.println("非台北市");
+    }
+    char c = s1.charAt(1);
+    if(c=='1'){
+      System.out.println("男");
+    }
+    else{
+      System.out.println("女");
+    }
+    
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    String s1 = new String ("abced");
+    if(s1.length()>= 6)
+    {
+      System.out.println("success");
+    }
+    else
+    {
+      System.out.println("fail");
+    }
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    String s1 = new String ("abcedfgh");
+    if(s1.length()>= 6 && s1.length()<= 15)
+    {
+      System.out.println("success");
+    }
+    else
+    {
+      System.out.println("fail");
+    }
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    String s1 ="a123034567 ".trim();
+    char d = s1.charAt(0);
+    System.out.println(d);
+    System.out.println(s1.charAt(s1.length()-1));
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+   float s1 , w1;
+   float s = 32f;
+   float w = 100f;
+   w1 = s *(9.0f/5) + 32;
+   s1 =(w-32)/(9.0f/5) ;
+   System.out.println(w1);
+   System.out.println(s1);
+  }
+}
+
+
+class Main {
+  public static void main(String[] args) {
+  String s1 = "a5322121a";
+  String s2 = "a";
+  if(s1.length()>=2)
+  {
+    System.out.println("正確");
+  }
+  else if(s1.length()<2)
+  {
+     System.out.println("錯誤");
+  }
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+  char a1,a2,b1,b2;
+  String s1 = "a5322121a";
+  String s2 = "a12321b";
+  if(s1.charAt(s1.length()-1)==s1.charAt(0))
+  {
+    System.out.println("正確");
+  }
+  else
+  {
+    System.out.println("錯誤");
+  }
+   if(s2.charAt(s2.length()-1)==s2.charAt(0))
+  {
+    System.out.println("正確");
+  }
+  else
+  {
+    System.out.println("錯誤");
+  }
+ }
+}

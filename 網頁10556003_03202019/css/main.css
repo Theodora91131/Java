@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{
+	margin:0;
+	padding:0;
+	font-family: 'Noto Sans TC', sans-serif;
+	background:#5F1049;	
+	}
+
+div.container{
+	width:1000px;
+	margin-right:auto;
+	margin-left:auto;
+	
+	}
+div.header{
+	height:80px;
+	background:#522B72;
+	
+	}
+div.navbar{
+	height:80px;
+	background:#9F4F89;
+	
+	}
+div.content{
+	display:flex;
+	
+	}
+div.left{
+	flex:1;
+	background:#522B72;;
+	color:#fff;
+	padding:15px;
+	padding-top:15px;
+	text-align:justify;
+	font-size:14px;
+	
+	}
+div.right{
+	flex:4;
+	background:#fff;
+	padding:15px;
+	padding-top:15px;
+	text-align:justify;
+	}
+table.menu{
+	border-collapse:collapse;
+	
+	}	
+table.menu tr{
+	height:50px;
+	
+	}	
+table.menu tr td{
+	padding-top:30px;
+	border-bottom: 1px dotted #000;
+	
+	}	
+table.menu tr td p{
+	margin:0;
+	
+	}	
+table.menu tr td p:nth-child(1){
+	font-size:20px;
+	
+	}	
+div.footer{
+	height:50px;
+	background:#857DB1;
+	
+	}

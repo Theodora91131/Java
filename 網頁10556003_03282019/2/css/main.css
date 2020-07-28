@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/*---------------------------*/
+/* 編排網頁                   */
+/*---------------------------*/
+html, body{
+    font-family: 'Noto Sans TC', sans-serif; 
+    background:#444;
+}
+
+/*---------------------------*/
+/* 編排<容器>區塊             */
+/*---------------------------*/
+div.container{
+    width:800px;
+    margin:10px auto 10px auto;
+    background:#fff;
+    box-shadow:0px 0px 10px 0px #000;
+}
+
+/*---------------------------*/
+/* 編排<標題>區塊             */
+/*---------------------------*/
+div.header{
+    height:80px;
+    background:#555;
+}
+
+/*---------------------------*/
+/* 編排<導覽列>區塊            */
+/*---------------------------*/
+
+
+/*---------------------------*/
+/* 編排<內文>區塊             */
+/*---------------------------*/
+div.content{
+    padding:20px 30px;    
+    line-height:30px;
+    text-align:justify;
+}
+
+/*---------------------------*/
+/* 編排<表尾>區塊             */
+/*---------------------------*/
+div.footer{
+    height:50px;
+    line-height:50px;
+    background:#555;
+    font-size:13px;
+    text-align:center;
+    letter-spacing:1px;
+}

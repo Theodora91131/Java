@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+html, body{
+	font-family: 'Noto Sans TC', sans-serif;
+	}
+div.container{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+div.content{
+	text-align:justify;
+	}
+div.blockquote{
+	margin-left:20px;
+	border-left:10px solid #999;
+	padding:10px;
+	font-style:italic;
+	font-size:15px;
+	}

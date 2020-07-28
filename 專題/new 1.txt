@@ -1,0 +1,8 @@
+host:  ec2-54-225-113-7.compute-1.amazonaws.com
+Database:  d9s1i37g4iettc
+User:   cqfuqbnszpfpxt
+Port:   5432
+password:   
+6219f8bcdc467c87f039aa43f0c907cb22c2f17e2a3cd7618335487f0e127a95
+
+postgres://cqfuqbnszpfpxt:6219f8bcdc467c87f039aa43f0c907cb22c2f17e2a3cd7618335487f0e127a95@ec2-54-225-113-7.compute-1.amazonaws.com:5432/d9s1i37g4iettc

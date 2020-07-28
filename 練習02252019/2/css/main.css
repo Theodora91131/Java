@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+html ,body{
+	background : #8F3A5A;
+	font-family: 'Anton','Noto Sans TC', sans-serif;
+    margin:0;
+	padding:0;
+
+}
+div.header{
+	height:150px;
+	background:url(../imgs/2.jpg);
+}
+div.container{
+    background : #fff;
+	width:800px;
+	margin-right:auto;
+	margin-left:auto;
+}
+div.content{
+	text-align:justify;
+	/*padding:30px 20px 30px 20px;*/
+	padding:10px 30px 30px 30px;
+	}
+img{
+	float:left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	border : 10px solid #fff;
+	box-shadow: 0 0 100px 20px #333;
+	}	
+	
+div.footer{
+	height:150px;
+	background: url(../imgs/1.jpg);
+}

@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+html, body{
+	font-family: 'Noto Sans TC', sans-serif;
+	background:#000;
+	}
+div.container{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	background:#fff;
+	}
+div.content{
+	text-align:justify;
+	padding:20px 30px;
+	}
+div.blockquote{
+	margin-left:20px;
+	border-left:10px solid #999;
+	padding:10px;
+	font-style:italic;
+	font-size:15px;
+	}
+div.thumbnail{
+	width:230px;
+	height:350px;
+	background:url(../imgs/paper.jpg);
+	float:left;
+	overflow:hidden;
+	box-shadow: 0 0 15px 0 #666;
+	}
+div.thumbnail a{
+	text-decoration:none;
+	}
+div.thumbnails:after{
+	display:block;
+	content:'';
+	clear:both;
+	}
+div.thumbnail:nth-child(1),
+div.thumbnail:nth-child(2){
+	margin-right:25px;
+	}
+div.thumbnail h2{
+	font-size:20px;
+	margin-left:10px;
+	margin-right:10px;
+	color:#000;
+	text-align:center;
+	letter-spacing:1px;
+	}
+div.thumbnail p{
+	font-size:15px;
+	margin-left:10px;
+	margin-right:10px;
+	color:#000;
+	
+	}
+div.thumbnail:hover{
+	opacity:0.7;
+	}
+	

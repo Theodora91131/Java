@@ -1,0 +1,36 @@
+html ,body{
+    background :#237573;
+    font-family: 'Bad Script', cursive,'Noto Serif TC', serif;
+    margin:0;
+    padding:0;
+    font-weight:800;
+}
+div.header{
+	height:160px;
+	background:url(../imgs/1.jpg);
+}
+div.container{
+    background : #fff;
+	width:1000px;
+	margin-right:auto;
+	margin-left:auto;
+}
+div.content{
+    text-align:justify;
+	padding:15px;
+}
+span.first{
+	font-size : 25px;
+	font-weight : 600;
+    }
+img{
+    float:left;
+     margin-right: 15px;
+     margin-bottom: 15px;
+    border : 10px solid #fff;
+    box-shadow: 0 0 100px 20px #333;
+    }	
+div.footer{
+    height:160px;
+	background:url(../imgs/2.jpg);
+}
